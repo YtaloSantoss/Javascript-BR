@@ -1,8 +1,9 @@
-var a = 30;
+var a = 3;
 
-a = a % 28;
+var b = "4";
 
-console.log(a);
+
+console.log( a !== b);
 
 
  
