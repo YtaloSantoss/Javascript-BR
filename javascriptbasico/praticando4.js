@@ -1,3 +1,5 @@
-var idade = 18;
+var idade = 17;
 
-idade >= 18 ? console.log("pode") : console.log("não pode")
+var pode = idade >= 18 ? true : false
+
+console.log(pode)
