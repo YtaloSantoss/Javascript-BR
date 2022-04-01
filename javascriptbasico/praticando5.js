@@ -19,8 +19,6 @@ else if (media >= 6.5 ) {
 
     conceito = "Regular";
 }
-console.log(media);
-console.log(conceito);
 
 switch(conceito){
 
@@ -36,3 +34,6 @@ switch(conceito){
     default:
         console.log("Houve algum erro")
 }
+
+console.log(media);
+console.log(conceito);
