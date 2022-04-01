@@ -13,4 +13,4 @@ console.log("Menor que 10 ", menor10);
 
 console.log("Tem direto a gratuidade", gratuidade);
 
- 
+ console.log(!gratuidade)
