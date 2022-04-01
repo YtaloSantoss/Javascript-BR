@@ -10,4 +10,4 @@ while (numero < 90 ) {
 }
 
 console.log(numero);
-console.log("Acabou")
+console.log("Acabou");
