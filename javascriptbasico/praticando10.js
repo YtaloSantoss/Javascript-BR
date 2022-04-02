@@ -7,4 +7,5 @@ function media(n1,n2) {
 }
 
 var resultado = media(6, 7);
+
 console.log(resultado)
