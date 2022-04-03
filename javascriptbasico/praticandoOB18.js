@@ -13,7 +13,7 @@ var aluno = {
 
 var aluno1 = {
     nome: "João",
-    notas: [6, 7],
+    notas: [6, 7], 
 
     media: calcMedia
     
