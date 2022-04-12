@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sortear</title>
-    
+
     <script>
+
+        let = pessoas = ["Igor", "Jose", "Marcos", "Pamela", "Joana"]
         function sortear(){
 
-            let nu = 100;
+            let nu = pessoas.length;
 
-            let nm = Math.round(Math.random() * nu);
+            let nm = Math.floor(Math.random() * nu);
             
-            document.getElementById("d").innerHTML = nm
+            document.getElementById("d").innerHTML = pessoas[nm]
         }
     </script>
 
 </head>
 <body>
+    
     <h1 id="d"></h1>
     <button onclick="sortear()"> Sortear </button>
+
 </body>
 </html>
     
