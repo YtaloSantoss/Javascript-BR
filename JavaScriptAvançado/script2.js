@@ -18,5 +18,9 @@ let cat = {
     }
 }
 
-dog.speak();
-cat.speak();
+//dog.speak();
+//cat.speak();
+
+let bindFunction = speakGereric.bind(cat)
+
+//bindFunction();
