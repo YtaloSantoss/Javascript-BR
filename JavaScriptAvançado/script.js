@@ -1,5 +1,5 @@
 "use strict";
-
+// use strict obriga a toda varivel ser declada de forma normal 
 
 
 function imprimir(){
