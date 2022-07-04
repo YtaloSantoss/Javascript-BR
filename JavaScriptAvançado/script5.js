@@ -25,6 +25,8 @@ function listarUsuario() {
 
 }
 
+
+
 // aqui estou disparando a primeira função nome fazendo com que o item Igor seja adcionado.
 inserirUsuario("Igor")
 // aqui estou disparando a função listarUsuario() e imprimido o resultado final chamando pelo .then o resolve.    
